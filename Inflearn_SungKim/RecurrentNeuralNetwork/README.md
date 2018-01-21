@@ -24,6 +24,13 @@ RNN은 앞에것을 잘 기억한다고 생각할수있다.
 
 advance model=LSTM,GRM
 
+데이터마다 길이가 다를수있다. padding을 사용하면 값이 이상해질수있다.
+
+Sequence Length->dynamic RNN
+
+output을 logit에 넣었을때 결과가 제대로 나오지 않았던 이유?
+
+Deep&Wide->Deep Learning, Softmax를 한뒤에 logit에 넣어줘야한다.
 
 
 
