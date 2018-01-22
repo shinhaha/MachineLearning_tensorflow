@@ -59,9 +59,10 @@ Pooling layer(sampling)
 
 한 layer씩 뽑아내서 resize한다.
 pooling 한 후에 다시 쌓는다.
-
-MAX POOLING -> pooling 결과의 Max값을 쓴다.
 ```
+
+* **MAX POOLING -> pooling 결과의 Max값을 쓴다.**
+![maxpool](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/MaxPool.png)
 
 * **CONV -> RELU -> Pooling을 거친 뒤 FC를 통해 SoftMaxClassifier로 하나의 output을 낸다!**
 
