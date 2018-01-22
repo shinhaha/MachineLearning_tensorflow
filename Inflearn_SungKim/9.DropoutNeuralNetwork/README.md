@@ -33,6 +33,7 @@ but, No need to use complicated RBM for weight init
 
 ## Xavier/He initialization
 ![XaiverInit](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/9.DropoutNeuralNetwork/img/xavier_init.png)
+
 ``
 fan_in,fan_out 
 Using number of input,output
