@@ -27,6 +27,7 @@ Chain Rule 미분 공식을 이용하여 W를 조정해간다!
 
 ## Tensor Board
 * Visualize Grpah!
+
 ![tb](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/8.NeuralNetwork/img/TensorBoard.png)
 ```
 1.Decide which tensors you want to log
