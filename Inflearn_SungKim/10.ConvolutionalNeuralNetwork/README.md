@@ -5,7 +5,7 @@
 입력을 나누어 받자! -> ConvNet
 ```
 
-## ConveNet
+## ConvNet
 ![Conv](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/Conv.png)
 
 ```
@@ -26,13 +26,14 @@ Outputsize=>(N-F)/stride+1
 ![padding](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/padding%3DSame.png)
 
 ```
-이미지가 작아지면 정보를 잃어버린다. -> padding을 사용한다!
+이미지가 작아지면 정보를 잃어버린다. -> padding을 사용해서 input과 output의 사이즈를 같게 만들어준다!
+
 padding -> 테두리에 0을두른 가상의 입력을 만들어준다.
+
 1.그림이 급격히 작아지는것을 방지.
 2.이 부분이 모서리라는 것을 네트워크에게 알려준다.
 7*7 -> padding -> 9*9
 
-padding을 해서 input과 output의 사이즈를 같게 만들어준다!
 ```
 
 * Swiping the entire image
@@ -46,7 +47,7 @@ image 1,image 2,image 3....image n
 How many weight variables?
 image의 부피*(filter Number)와 같다.
 
-weight 값은 처음에 초기화해주고 가르쳐준 data로 학습
+weight 값은 처음에 초기화해주고 가르쳐준 data로 학습한다.
 ```
 
 ## Pooling
@@ -59,12 +60,10 @@ Pooling layer(sampling)
 한 layer씩 뽑아내서 resize한다.
 pooling 한 후에 다시 쌓는다.
 
-MAX POOLING
-pooling 결과의 Max값을 쓴다.
-
+MAX POOLING -> pooling 결과의 Max값을 쓴다.
 ```
 
-* CONV->RELU->Pooling을 거친뒤 FC를 통해 SoftMaxClassifier로 하나의 output을 낸다.
+* **CONV -> RELU -> Pooling을 거친 뒤 FC를 통해 SoftMaxClassifier로 하나의 output을 낸다!**
 
 ![conv](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/ConvNet.png)
 
@@ -72,9 +71,9 @@ pooling 결과의 Max값을 쓴다.
 [Google Cloud ML](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/Google%20Cloud%20ML.pdf)
 
 ```
-모든 학습이 Cloud의 storage에 저장된다.
-Powerful한 기능을 제공받을수 있다.
-Distributed training tasks
+1.모든 학습이 Cloud의 storage에 저장된다.
+2.Powerful한 기능을 제공받을수 있다.
+3.Distributed training tasks
 ```
 
 ## CNN case study
