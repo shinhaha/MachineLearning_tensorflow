@@ -6,6 +6,8 @@
 ```
 
 ## ConveNet
+![Conv](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/Conv.png)
+
 ```
 Image를 width*height*depth(RGB)로 받는다
 
@@ -21,6 +23,8 @@ Outputsize=>(N-F)/stride+1
 ```
 
 ## Padding
+![padding](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/padding%3DSame.png)
+
 ```
 이미지가 작아지면 정보를 잃어버린다. -> padding을 사용한다!
 padding -> 테두리에 0을두른 가상의 입력을 만들어준다.
@@ -32,6 +36,8 @@ padding을 해서 input과 output의 사이즈를 같게 만들어준다!
 ```
 
 * Swiping the entire image
+![conv2d](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/conv2d.png)
+
 ```
 각각의 필터를 이용해서 이미지를 만든다
 image 1,image 2,image 3....image n
@@ -44,6 +50,7 @@ weight 값은 처음에 초기화해주고 가르쳐준 data로 학습
 ```
 
 ## Pooling
+![Pooling](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/MaxPooling.png)
 ```
 Max pooling and others
 
@@ -55,10 +62,14 @@ pooling 한 후에 다시 쌓는다.
 MAX POOLING
 pooling 결과의 Max값을 쓴다.
 
-CONV와 RELU,POOLling을 거친뒤 FC를 통해 SoftMaxClassifier로 하나의 output을 낸다.
 ```
 
+* CONV->RELU->Pooling을 거친뒤 FC를 통해 SoftMaxClassifier로 하나의 output을 낸다.
+
+![conv](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/ConvNet.png)
+
 ## Google Cloud ML
+[Google Cloud ML](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/Google%20Cloud%20ML.pdf)
 
 ```
 모든 학습이 Cloud의 storage에 저장된다.
@@ -69,9 +80,16 @@ Distributed training tasks
 ## CNN case study
 
 * **LeNet:5*5 6개의 filter 사용 글자를 분석**
+![Lenet](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/LeNet.png)
+
 * **AlexNet:깊은 layer를 image에 사용 7 CNN ensemble**
+
 * **GoogleLeNet:Inception module**
+
 * **ResNet:152개의 Layer를 사용 FastForward개념을 사용**
+![Resnet](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/ResNet.png)
+
 * **AlphaGo:CNN과 padding을 이용**
 
-
+## tf.layer
+![layer](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/tf.layes.png)

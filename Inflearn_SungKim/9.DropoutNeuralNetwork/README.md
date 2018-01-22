@@ -58,6 +58,8 @@ Solution for overfitting
 ```
 
 ## Ensemble
+![Ensemble](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/10.ConvolutionalNeuralNetwork/img/Ensemble.png)
+
 ```
 독립적으로 NeuralNetwork를 만들고 각각 학습시킨 후 마지막에 Combine 해서 결과를 낸다.
 Accuracy향상!!
