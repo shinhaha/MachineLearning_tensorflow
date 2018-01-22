@@ -3,7 +3,7 @@
 ## Session1
 [1.LinearRegression](https://github.com/shinhaha/MachineLearning_tensorflow/tree/master/Inflearn_SungKim/1.LinearRegression)
 ## Session2
-[2.CostMinimze](https://github.com/shinhaha/MachineLearning_tensorflow/tree/master/Inflearn_SungKim/2.CostMinimze)
+[2.CostMinimize](https://github.com/shinhaha/MachineLearning_tensorflow/tree/master/Inflearn_SungKim/2.CostMinimize)
 ## Session3
 [3.MultiVariableLinearRegression](https://github.com/shinhaha/MachineLearning_tensorflow/tree/master/Inflearn_SungKim/3.MultiVariableLinearRegression)
 ## Session4
