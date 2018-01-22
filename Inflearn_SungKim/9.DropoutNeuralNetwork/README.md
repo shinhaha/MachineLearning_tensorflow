@@ -12,7 +12,7 @@ So, Use ReLU!!
 ```
 
 ## ReLU:Rectified Linear Unit
-![relu](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/9.DropoutNeuralNetwork/img/ReLU.png)
+![relu](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/9.DropoutNeuralNetwork/img/ReLU.jpg)
 
 ```
 L=tf.nn.relu(tf.matmul(X,W)+b)
