@@ -47,7 +47,7 @@ Test set은 한번만 볼수있다!
 ```
 
 **Validation set**
--> 튜닝을 하기위하여 사용하는 data**
+-> 튜닝을 하기위하여 사용하는 data set
 
 ![validationset](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/6.TrainingAndTest/img/Validation.png)
 
