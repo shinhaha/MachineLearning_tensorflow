@@ -11,27 +11,30 @@
 
 Try several learning rates!
 ```
-![ex]
+
+![ex](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/6.TrainingAndTest/img/WhyNaN.png)
 
 ## Data preprocessing
 * Data preprocessing for gradient descent
 
 µ¥ÀÌÅÍÀÇ °ªÀÌ Â÷ÀÌ°¡ ¸¹ÀÌ³ª¼­ ¿øÇÏÁö ¾Ê´Â °á°ú°¡ ³ª¿Ã¼öÀÖ´Ù.
 **normalized data!**
-![normalized]
+
+![normalized](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/6.TrainingAndTest/img/Standardization.png)
 
 ## Overfitting
+```
 Our model is very good with training data set 
 but not good at test set
 Solutions for overfitting
 1.more training data
 2.reduce number of features
 3.Regularization
-
+```
 **Regulariztion**
-Let's not have too big numbers in the weight
 WeightÀ» Àû°ÔÁà¼­ ±×·¡ÇÁ¸¦ ÆîÄ¡ÀÚ!
-![regularization]
+
+![regularization](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/6.TrainingAndTest/img/Regularization.png)
 
 ## Performance Evaluation
 ```
@@ -39,11 +42,12 @@ Training setÀ¸·Î modelÀ» ÇĞ½À½ÃÅ² ÈÄ ´Ù½Ã training setÀ¸·Î ¶È°°ÀÌ ¹°¾îº¸¸é °øÁ¤Ç
 memorizationÀÌ ÀÏ¾î³¯¼ö ÀÖÀ½.
 
 So... Divide Training sets and test sets
+Test setÀº ÇÑ¹ø¸¸ º¼¼öÀÖ´Ù!
 ```
 
-**Validation set** -> Æ©´×À» ÇÏ±âÀ§ÇÏ¿© »ç¿ëÇÏ´Â data
-![validationset]
-Test setÀº ÇÑ¹ø¸¸ º¼¼öÀÖ´Ù.
+**Validation set** -> Æ©´×À» ÇÏ±âÀ§ÇÏ¿© »ç¿ëÇÏ´Â data**
+
+![validationset](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/6.TrainingAndTest/img/Validation.png)
 
 *Online learning
 ```
