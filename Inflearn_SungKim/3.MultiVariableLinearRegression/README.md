@@ -13,8 +13,10 @@ H(X)=XW=x1w1+x2w2+x3w3...
 ```
 
 ## Matrix multiplication
+![usingMatrix](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/3.MultiVariableLinearRegression/img/UsingMatrix.jpg)
+
 ```
-Matrix multiple 
+Matrix multiplication 
 -> H(x)=XW -> tf.matmul(X,W)+b
 
 [n,3] * [3,1] -> [n,1]
