@@ -14,10 +14,12 @@ A,B,C를 구분하려면 3개의 binary classification으로 구현한다.
 H=W[3,3]X[1,3]로 한번에 구현가능하다!
 ```
 
-WX(Logistic classfier)=(sigmoid)Y
-ex:A,B,C
+* WX(Logistic classfier)=(sigmoid)Y
+```
+ex)A,B,C
 (2.0,1.0,0.1) -> SoftMax -> (0.7,0.2,0.1) 각각의 합이 1이된다
 (0.7,0.2,0.1) -> One-Hot encoding -> (1.0,0.0,0.0) 답은 A다!
+```
 
 **Cross-Entrophy**
 
@@ -30,18 +32,19 @@ cost function=>(맞으면 상을 조금주고 틀리면 패널티를 많이주는 방법!)
 
 Logistic cost Vs cross entrophy
 식은 다르지만 실제로는 같은것이다! Why???
-```
+
 loss function=1/N(sum(D(s(WX+b),L))
 
 Weight number -> input Number 
+Bias number -> output Number
 
-bias number -> output Number
+Softmax=exp(logits)/reduce_sum(exp(logit),dim)
 
-softmax=exp(logits)/reduce_sum(exp(logit),dim)
-
-hypothesis=tf.nn.softmax(tf.matmul(X,W)+b)
+Hypothesis=tf.nn.softmax(tf.matmul(X,W)+b)
 
 cost=tf.reduce_mean(-tf.reduce_sum(Y*tf.log(hypothesis),axis=1))
+
+```
 
 ## Sample Code
 ```
