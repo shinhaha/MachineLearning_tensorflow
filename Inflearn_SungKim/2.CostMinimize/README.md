@@ -11,6 +11,7 @@
 ```
 
 * Convex function(움푹 파인형태의 그래프)
+![Convex](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/2.CostMinimize/img/Convexfunction.jpg)
 ```
 시작점에 따라 도착점이 달라질 수 있다.
 Cost를 설계할때 Convex function인지 확인해야한다.
