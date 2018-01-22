@@ -29,10 +29,14 @@ S=예측값 L=실제값
 D(S,L) -> -sum(Llog(S))
 -> -sum(Llog(S))=>sum(L)*(-log(S)))
 Cost function=>(맞으면 상을 조금주고 틀리면 패널티를 많이주는 방법!)
+```
 
-Logistic cost Vs cross entrophy
-식은 다르지만 실제로는 같은것이다! Why???
+* Logistic cost Vs Cross entrophy
 
+![verses](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/5.SoftMaxClassifier/img/Logit%26CrossEntropy.jpg)
+**식은 다르지만 실제로는 같은것이다! Why???**
+
+```
 loss function=1/N(sum(D(s(WX+b),L))
 
 Weight number -> input Number 
