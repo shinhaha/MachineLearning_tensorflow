@@ -5,10 +5,9 @@
 ```
 * Minimize cost function
 * 경사를 따라 내려간다=>미분으로 경사도를 구한다!
-* cost(w)=1/2msum(Wx(i)-y(i))^2
-* cosw(W)를 미분하면
-* W=W-(alpha)1/m(sum(Wx(i)-y(i)x(i)
 ```
+![derivation](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/2.CostMinimize/img/derivation.jpg)
+![W](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/2.CostMinimize/img/W.jpg)
 
 * Convex function(움푹 파인형태의 그래프)
 ![Convex](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/2.CostMinimize/img/Convexfunction.jpg)
@@ -27,3 +26,4 @@ train=optimizer.minimize(cost)
 gvs=optimizer.compute_gradeints(cost)
 optimizer.apply_gradients(gvs)
 ```
+![result](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/2.CostMinimize/img/BuidedGraph.png)
