@@ -33,4 +33,4 @@ Neural networks with many layers really could be trained well
 ->if the weights are initializer in a clever way rather than randomly
 ```
 
-[Âü°í:tensor_manipulation](https://github.com/hunkim/DeepLearningZeroToAll/blob/master/lab-08-tensor_manipulation.ipynb)
+[Ref)Tensor_manipulation](https://github.com/hunkim/DeepLearningZeroToAll/blob/master/lab-08-tensor_manipulation.ipynb)
