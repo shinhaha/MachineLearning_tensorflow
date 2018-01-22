@@ -42,7 +42,7 @@ loss function=1/N(sum(D(s(WX+b),L))
 Weight number -> input Number 
 Bias number -> output Number
 
-Softmax=exp(logits)/reduce_sum(exp(logit),dim)
+Softmax=exp(logits)/reduce_sum(exp(logits),dim)
 
 Hypothesis=tf.nn.softmax(tf.matmul(X,W)+b)
 
