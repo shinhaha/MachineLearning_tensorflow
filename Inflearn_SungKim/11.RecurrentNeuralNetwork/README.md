@@ -34,7 +34,7 @@ advance model=LSTM,GRM
 ![dynamicRNN](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/11.RecurrentNeuralNetwork/img/DynamicRNN.png)
 
 ```
-데이터마다 길이가 다를수있다. padding을 사용하면 값이 이상해질수있다.
+데이터마다 길이가 다를 수 있다. padding을 사용하면 값이 이상해질 수 있다.
 Sequence Length -> dynamic RNN
 ```
 
@@ -42,5 +42,4 @@ Sequence Length -> dynamic RNN
 ```
 1. Should be Deep&Wide -> Deep Learning!
 2. Softmax를 한 뒤에 logit에 넣어줘야 한다.
-
 ```
