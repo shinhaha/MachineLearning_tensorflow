@@ -9,8 +9,12 @@ Vanishing gradient
 2.Sigmoid의 문제... 
 
 So, Use ReLU!!
+```
 
-ReLU:Rectified Linear Unit
+## ReLU:Rectified Linear Unit
+![relu](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Inflearn_SungKim/9.DropoutNeuralNetwork/img/ReLU.png)
+
+```
 L=tf.nn.relu(tf.matmul(X,W)+b)
 
 Sigmoid는 마지막에 한번 써주고 앞에서는 ReLU를 사용한다.
