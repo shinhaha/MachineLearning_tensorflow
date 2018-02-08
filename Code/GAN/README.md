@@ -3,7 +3,7 @@
 ![img1](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/img/K-001.png)
 
 ```
-GAN이란 생성자와 반별자로 이루어진 적대적인 두 개의 네트워크를 이용한 UnSupervised Learning이다.
+GAN이란 생성자와 판별자로 이루어진 적대적인 두 개의 네트워크를 이용한 UnSupervised Learning이다.
 위의 그림에서 지폐 위조범 G와 경찰 D로 재미있게 GAN을 설명하고 있는데, 
 처음에 지폐 위조범은 형편없는 수준의 위조지폐를 생성한다. 경찰은 단박에 이게 위조지폐인 것을 파악한다. 
 하지만, 지폐 위조범의 기술력이 계속 발전하고 경찰은 결국 이게 진짜 지폐인지 위조지폐인지 구분할 수 없게 된다!
@@ -13,8 +13,10 @@ GAN이란 생성자와 반별자로 이루어진 적대적인 두 개의 네트워크를 이용한 UnSupervis
 ```
 위의 그림에서 실제 데이터인 점선 그래프와 판별자의 판단인 파란색 그래프, G가 생성한 데이터 초록색 그래프를 살펴보면
 (a)는 좋지 않은 D의 능력을 표현한다 실제 데이터와 가짜 데이터의 차이가 클 때도 D의 예측이 흔들리고 있다. 
-(b)는 D가 올바르게 예측하고 있는 것을 확인할 수 있다. G가 점점 학습하게 되면 그림 (c)처럼 점점 실제 데이터와 근접하게 될 것이고 
-결국 데이터가 일치하게 되면 D는 이게 진짜 데이터인지 가짜인지 구분할 수 없는 그림(d)의 p(G)=p(data)=0.5의 상황에 도달하게 된다.
+(b)는 D가 올바르게 예측하고 있는 것을 확인할 수 있다. 
+G가 점점 학습하게 되면 그림 (c)처럼 점점 실제 데이터와 근접하게 될 것이고 
+결국 데이터가 일치하게 되면 D는 이게 진짜 데이터인지 가짜인지 구분할 수 없는 그림(d)의
+p(G)=p(data)=0.5의 상황에 도달하게 된다.
 ```
 ![img3](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/img/K-003.png)
 
@@ -55,3 +57,16 @@ yunjey 님의 강의 영상에서 가져온 자료인데 G의 loss function log(1-D(G(z)))에서
 하지만 초반의 무한대에 가까운 기울기로 인해 튕기는 현상이 나타날 수 있다.
 그래서 initialize에서 정규분포를 해주는 작업이 중요하고 initialize를 잘 해주지 않으면 NaN이 나오게 된다.
 ```
+
+# MNIST Proc
+[1](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/000.png)
+[2](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/009.png)
+[3](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/019.png)
+[4](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/029.png)
+[5](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/039.png)
+[6](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/049.png)
+[7](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/059.png)
+[8](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/069.png)
+[9](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/079.png)
+[10](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/089.png)
+[11](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/099.png)
