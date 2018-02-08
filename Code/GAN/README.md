@@ -45,7 +45,7 @@ C(G)가 p(G)=p(data)인 global minimum을 갖고 결국 convex 하다는 설명이다.
 ```
 convex 하다는 것을 증명했기 때문에 Gradient Descent를 적용하면 global minimum에 도달할 수 있다고 말할 수 있다.
 ```
-![img11](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/img/K-11.jpg)
+![img11](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/img/K-011.jpg)
 
 ```
 yunjey 님의 강의 영상에서 가져온 자료다. 위의 그림에서 G의 식을 정리하는데
