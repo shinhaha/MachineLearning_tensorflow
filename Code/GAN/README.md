@@ -15,8 +15,7 @@ GAN이란 생성자와 판별자로 이루어진 적대적인 두 개의 네트워크를 이용한 UnSupervis
 (a)는 좋지 않은 D의 능력을 표현한다 실제 데이터와 가짜 데이터의 차이가 클 때도 D의 예측이 흔들리고 있다. 
 (b)는 D가 올바르게 예측하고 있는 것을 확인할 수 있다. 
 G가 점점 학습하게 되면 그림 (c)처럼 점점 실제 데이터와 근접하게 될 것이고 
-결국 데이터가 일치하게 되면 D는 이게 진짜 데이터인지 가짜인지 구분할 수 없는 그림(d)의
-p(G)=p(data)=0.5의 상황에 도달하게 된다.
+결국 데이터가 일치하게 되면 D는 이게 진짜 데이터인지 가짜인지 구분할 수 없는 그림(d)의 p(G)=p(data)=0.5의 상태에 도달한다.
 ```
 ![img3](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/img/K-003.png)
 
@@ -59,14 +58,15 @@ yunjey 님의 강의 영상에서 가져온 자료인데 G의 loss function log(1-D(G(z)))에서
 ```
 
 # MNIST Proc
-[1](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/000.png)
-[2](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/009.png)
-[3](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/019.png)
-[4](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/029.png)
-[5](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/039.png)
-[6](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/049.png)
-[7](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/059.png)
-[8](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/069.png)
-[9](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/079.png)
-[10](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/089.png)
-[11](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/099.png)
+
+![1](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/000.png)
+![2](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/009.png)
+![3](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/019.png)
+![4](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/029.png)
+![5](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/039.png)
+![6](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/049.png)
+![7](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/059.png)
+![8](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/069.png)
+![9](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/079.png)
+![10](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/089.png)
+![11](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Code/GAN/samples/099.png)
