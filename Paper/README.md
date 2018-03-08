@@ -5,3 +5,4 @@
   * [UNSUPERVISED LEARNING WITH DEEP CONV ADVERSARIAL NETWORKS](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Paper/UNSUPERVISED%20LEARNING%20WITH%20DEEP%20CONV%20ADVERSARIAL%20NETWORKS.pdf)
   * [Generative Adversarial Text to Image Synthesis](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Paper/Generative%20Adversarial%20Text%20to%20Image%20Synthesis.pdf)
   * [PlayingAtariwithDeepReinforcementLearning](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Paper/Playing%20Atari%20with%20Deep%20Reinforcement%20Learning.pdf)
+   * [A Neural Algorithm of Artistic Style](https://github.com/shinhaha/MachineLearning_tensorflow/blob/master/Paper/A%20Neural%20Algorithm%20of%20Artistic%20Style.pdf)
